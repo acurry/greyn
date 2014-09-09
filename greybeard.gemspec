@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andrew Curry"]
   spec.email         = ["andrew.d.curry@gmail.com"]
   spec.summary       = %q{Easily convert a PNG to greyscale.}
-  spec.description   = %q{Use greybeard to convert any PNG to a greyscale version using either Luma, Averaged, or Light-based formats.}
+  spec.description   = %q{Use greybeard to convert any PNG to 3 greyscale versions at once - Luma, RGB Average, and Light.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

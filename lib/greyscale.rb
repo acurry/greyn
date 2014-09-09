@@ -27,16 +27,3 @@ module Greyscale
     end
 
 end
-
-# puts 'Path (press enter for Lenna): '
-# file = gets.chomp
-# path = "./assets/images"
-# file = path + "./Lenna.png" if file.empty?
-
-# filename = File.basename(file).split('.')[0]
-
-# [:avg, :light, :luma].each do |f|
-#   img = ChunkyPNG::Image::from_file(File.expand_path(file))
-#   Greyscale::greyscale(img, f)
-#   img.save(path + "/#{filename}_#{f.to_s}.png")
-# end

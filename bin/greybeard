@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'greybeard'
-Greybeard::to_luma(ARGV[0])
+Greybeard::convert(ARGV[0])

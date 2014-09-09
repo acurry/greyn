@@ -8,7 +8,7 @@ module Greybeard
     File.basename(file).split('.')[0]
   end
 
-  def self.to_luma file
+  def self.convert file
     basename = self.base_filename file
 
     [:avg, :light, :luma].each do |f|
