@@ -2,15 +2,15 @@ require 'chunky_png'
 
 module Greyscale
 
-    def self.col_luma(r, g, b)
+    def self.luma(r, g, b)
         0.21*r + 0.72*g + 0.07*b
     end
 
-    def self.col_avg(r, g, b)
+    def self.avg(r, g, b)
         (r + g + b) / 3
     end
 
-    def self.col_light(r, g, b)
+    def self.light(r, g, b)
         ([r,g,b].max + [r,g,b].min) / 2
     end
 
@@ -35,7 +35,7 @@ end
 
 # filename = File.basename(file).split('.')[0]
 
-# [:col_avg, :col_light, :col_luma].each do |f|
+# [:avg, :light, :luma].each do |f|
 #   img = ChunkyPNG::Image::from_file(File.expand_path(file))
 #   Greyscale::greyscale(img, f)
 #   img.save(path + "/#{filename}_#{f.to_s}.png")
