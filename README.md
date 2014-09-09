@@ -1,6 +1,6 @@
 # Greybeard
 
-TODO: Write a gem description
+Easily convert a PNG to greyscale.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    greybeard path/to/image.png <format>
 
 ## Contributing
 

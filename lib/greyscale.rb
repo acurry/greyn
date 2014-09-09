@@ -2,7 +2,7 @@ require 'chunky_png'
 
 module Greyscale
 
-    def self.col_lum(r, g, b)
+    def self.col_luma(r, g, b)
         0.21*r + 0.72*g + 0.07*b
     end
 
@@ -28,15 +28,15 @@ module Greyscale
 
 end
 
-puts 'Path (press enter for Lenna): '
-file = gets.chomp
-path = "./assets/images"
-file = path + "/Lenna.png" if file.empty?
+# puts 'Path (press enter for Lenna): '
+# file = gets.chomp
+# path = "./assets/images"
+# file = path + "./Lenna.png" if file.empty?
 
-filename = File.basename(file).split('.')[0]
+# filename = File.basename(file).split('.')[0]
 
-[:col_avg, :col_light, :col_lum].each do |f|
-  img = ChunkyPNG::Image::from_file(File.expand_path(file))
-  Greyscale::greyscale(img, f)
-  img.save(path + "/#{filename}_#{f.to_s}.png")
-end
+# [:col_avg, :col_light, :col_luma].each do |f|
+#   img = ChunkyPNG::Image::from_file(File.expand_path(file))
+#   Greyscale::greyscale(img, f)
+#   img.save(path + "/#{filename}_#{f.to_s}.png")
+# end
