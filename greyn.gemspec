@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'greybeard/version'
+require 'greyn/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "greybeard"
-  spec.version       = Greybeard::VERSION
+  spec.name          = "greyn"
+  spec.version       = Greyn::VERSION
   spec.authors       = ["Andrew Curry"]
   spec.email         = ["andrew.d.curry@gmail.com"]
   spec.summary       = %q{Easily convert a PNG to greyscale.}
-  spec.description   = %q{Use greybeard to convert any PNG to 3 greyscale versions at once - Luma, RGB Average, and Light.}
+  spec.description   = %q{Use greyn to convert any PNG to 3 greyscale versions at once - Luma, RGB Average, and Light.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

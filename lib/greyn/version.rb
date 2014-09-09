@@ -1,3 +1,3 @@
-module Greybeard
+module Greyn
   VERSION = "0.2.0"
 end

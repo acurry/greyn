@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in greybeard.gemspec
+# Specify your gem's dependencies in greyn.gemspec
 gemspec

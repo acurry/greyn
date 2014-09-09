@@ -1,4 +1,4 @@
-# Greybeard
+# Greyn
 
 Easily convert a PNG to greyscale.
 
@@ -6,7 +6,7 @@ Easily convert a PNG to greyscale.
 
 Add this line to your application's Gemfile:
 
-    gem 'greybeard'
+    gem 'greyn'
 
 And then execute:
 
@@ -14,15 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install greybeard
+    $ gem install greyn
 
 ## Usage
 
-    greybeard path/to/image.png <format>
+    greyn path/to/image.png <format>
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/greybeard/fork )
+1. Fork it ( http://github.com/<my-github-username>/greyn/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

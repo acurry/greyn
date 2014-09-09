@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'greybeard'
-Greybeard::convert(ARGV[0])

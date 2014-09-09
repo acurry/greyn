@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'greyn'
+Greyn::convert(ARGV[0])

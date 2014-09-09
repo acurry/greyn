@@ -1,8 +1,8 @@
-require "greybeard/version"
+require "greyn/version"
 require "greyscale"
 require "chunky_png"
 
-module Greybeard
+module Greyn
   
   def self.base_filename file
     File.basename(file).split('.')[0]
