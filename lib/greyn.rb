@@ -10,11 +10,12 @@ module Greyn
 
   def self.convert file
     basename = self.base_filename file
+    path = File.dirname(File.expand_path(file))
 
     [:avg, :light, :luma].each do |f|
       img = ChunkyPNG::Image::from_file(File.expand_path(file))
       Greyscale::greyscale(img, f)
-      img.save("./#{basename}_#{f}.png")
+      img.save("#{path}/#{basename}_#{f}.png")
     end
   end
 

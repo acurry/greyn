@@ -20,7 +20,7 @@ Or install it yourself as:
 
     greyn path/to/image.png 
 
-This will generate 3 new PNGs in the current directory: `image_luma.png`, `image_avg.png`, and `image_light.png`. Each image is generated using a different algorithm.
+This will generate 3 new PNGs in `image.png`'s directory: `image_luma.png`, `image_avg.png`, and `image_light.png`. Each image is generated using a different algorithm.
 
 ## Contributing
 
