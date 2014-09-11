@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["andrew.d.curry@gmail.com"]
   spec.summary       = %q{Easily convert a PNG to greyscale.}
   spec.description   = %q{Use greyn to convert any PNG to 3 greyscale versions at once - Luma, RGB Average, and Light.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/acurry/greyn"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
