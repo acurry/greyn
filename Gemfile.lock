@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    greyn (0.2.0)
+    greyn (0.5.0)
       chunky_png (~> 1.3, >= 1.3.1)
 
 GEM
@@ -9,7 +9,7 @@ GEM
   specs:
     celluloid (0.16.0)
       timers (~> 4.0.0)
-    chunky_png (1.3.1)
+    chunky_png (1.3.6)
     coderay (1.1.0)
     diff-lcs (1.2.5)
     ffi (1.9.3)
@@ -62,3 +62,6 @@ DEPENDENCIES
   greyn!
   guard-rspec (~> 4.3, >= 4.3.1)
   rspec (~> 3.0)
+
+BUNDLED WITH
+   1.12.5
